@@ -1,3 +1,8 @@
+using Microsoft.EntityFrameworkCore;
+using RoyalKiddiesWard.API.Model;
+using RoyalKiddiesWard.API.ViewModels;
+
+
 namespace RoyalKiddiesWard.API
 {
     public class Program
@@ -7,12 +12,14 @@ namespace RoyalKiddiesWard.API
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
+            builder.Services.AddDbContext<BankDbContext>(options =>{ options.UseSqlServer(builder.Configuration.GetConnectionString("BankDbConnection")); });
 
             builder.Services.AddControllers();
+            //builder.Services.AddScoped<IWardService, WardService>();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
-
+      
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.

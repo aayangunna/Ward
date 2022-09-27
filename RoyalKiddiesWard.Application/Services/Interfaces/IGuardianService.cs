@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace RoyalKiddiesWard.Application.Services.Interfaces
 {
-    internal class IGuardianService
+    public interface IGuardianService
     {
+         Task<Ward> RecievePayment(int Id, decimal amount);
     }
 }

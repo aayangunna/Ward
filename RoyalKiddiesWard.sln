@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32819.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoyalKiddiesWard.API", "RoyalKiddiesWard.API\RoyalKiddiesWard.API.csproj", "{218AE1C5-DA09-4F60-8DCE-9C8A2D5133E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoyalKiddiesWard.API", "RoyalKiddiesWard.API\RoyalKiddiesWard.API.csproj", "{218AE1C5-DA09-4F60-8DCE-9C8A2D5133E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoyalKiddiesWard.Application", "RoyalKiddiesWard.Application\RoyalKiddiesWard.Application.csproj", "{BAD7C10B-A483-40DD-A1E3-5B84FD32B467}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoyalKiddiesWard.Application", "RoyalKiddiesWard.Application\RoyalKiddiesWard.Application.csproj", "{BAD7C10B-A483-40DD-A1E3-5B84FD32B467}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoyalKiddiesWard.Data", "RoyalKiddiesWard.Data\RoyalKiddiesWard.Data.csproj", "{794C3F70-7C18-4331-BA04-BCFDE13DDB57}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoyalKiddiesWard.Data", "RoyalKiddiesWard.Data\RoyalKiddiesWard.Data.csproj", "{794C3F70-7C18-4331-BA04-BCFDE13DDB57}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
